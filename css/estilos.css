@@ -6,7 +6,7 @@
 	box-sizing:border-box;
  }
  
- ul li{
+ul li{
 list-style-type:none;	
 }
  a{
@@ -53,7 +53,7 @@ color:#fff;
 font-weight:bold;
 }
 .list__menu li a:hover{
-color:#ff7100;;
+color:#ee1c25;;
 }
 .banner{
 position:relative;
@@ -86,7 +86,7 @@ width:650px;
 	border:3px solid #fff;
 }
 .title__banner span{
-	color:#ff2502;
+	color:#ee1c25;
 }
 .image-overlay {
 	display: block;
@@ -111,7 +111,7 @@ width:80%;
 	font-weight:600;
 }
 .container-button a:hover{
-	color:#ff7100;
+	color:#ee1c25;
 	background:#fff;
 	
 
@@ -158,10 +158,12 @@ cursor:pointer;
 .check-menu{
 	display:none;
 }
-.about{
-	grid-area:about;
-    background-color: #e9e9fd;
-    padding: 50px 0;	
+.about {
+    grid-area: about;
+    background-color: #fff1f2;
+    padding: 50px 0;
+    border-top: 1px solid #ffd3d9;
+    border-bottom: 1px solid #ffd3d9;
 }
 .about .container{
 	display:grid;
@@ -201,7 +203,7 @@ cursor:pointer;
 .title__card{
 	text-align: center;
 	padding-top:30px;
-	color: #ff8217;
+	color: #ee1c25;
     font-weight: bold;
     font-size: 1.5rem;
 }
@@ -221,11 +223,11 @@ cursor:pointer;
 .button__card{
 	color: white;
     padding: 10px 30px;
-    background-color: #ff8e02;
+    background-color: #ee1c25;
 	font-size:1rem;
 }
 .button__card:hover{
-	color:#ff8e02;
+	color:#ee1c25;
 	background-color:#fff;
 	box-shadow: 3px 3px 8px 0px #888888;
 	padding: 11px 33px;
@@ -295,7 +297,7 @@ cursor:pointer;
 .button-form a{
 	color: white;
     padding: 15px 45px;
-    background-color: #ff8e02;
+    background-color: #ee1c25;
     font-size: 1.5rem;
     display: inline-block;
 }
